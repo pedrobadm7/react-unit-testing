@@ -1,5 +1,5 @@
-function App() {
-  return <h1>Hello World</h1>
-}
+import List from './components/List';
 
-export default App
+export default function App() {
+  return <List initialItems={['Pedro', 'Lucas', 'Vini']}/>
+}
